@@ -1,0 +1,213 @@
+html {
+    height: 100%;
+}
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: 'Montserrat', sans-serif;
+    background: #3b5064;
+}
+
+h1 {
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+header {
+    padding: 1em;
+    padding-bottom: 5em;
+    background: #343a40;
+    margin-bottom: 3.5em;
+    text-align: center;
+    clip-path: polygon(0 0, 100% 0, 100% 85%, 0% 100%);
+}
+
+
+.footer {
+    padding: 1em;
+    background: #343a40;
+    text-align: center;
+    clip-path: polygon(0 0, 100% 40%, 100% 100%, 0% 100%);
+}
+
+a {
+    color: lightskyblue;
+}
+
+a:active {
+    color: orangered;
+}
+
+a:hover {
+    color: orangered;
+}
+.bigicon {
+    max-width: 300px;
+}
+.textbann {
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.card {
+    border-radius: 15px;
+    overflow: hidden;
+    line-height: 5px;
+    box-shadow: 0px 0px 15px 1px rgba(0,0,0,0.2);
+
+}
+.card-img-top {
+    max-height: 150px;
+    object-fit: cover;
+    margin-bottom: -10px;
+}
+.btn {
+    border-radius: 20px;
+    margin-bottom: -10px;
+}
+
+.footer1 {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    clip-path: polygon(45% 20%, 100% 0, 100% 100%, 35% 100%);
+    text-align: left;
+}
+
+
+.footer2 {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    clip-path: polygon(57% 11%, 100% 0, 100% 100%, 53% 100%);
+    text-align: left;
+}
+
+.footer3 {
+    position: fixed;
+    background: #212554;
+    left: 0;
+    bottom: 0;
+    z-index: 2;
+    width: 100%;
+    color: white;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    clip-path: polygon(53% 44%, 100% 31%, 100% 100%, 45% 100%);
+    text-align: left;
+}
+
+.top2 {
+    background: #212554;
+    right: 0;
+    top: 8%;
+    z-index: 1;
+    width: 100%;
+    color: white;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    clip-path: polygon(0 0, 46% 0, 40% 80%, 0 100%);
+    text-align: right;
+}
+
+.search2 {
+    z-index: 1;
+    position: absolute;
+}
+
+.cate1 {
+    background: orangered;
+    right: 0;
+    top: 8%;
+    z-index: 1;
+    width: 100%;
+    color: white;
+    clip-path: polygon(0 0, 80% 0%, 60% 100%, 0% 100%);
+}
+
+.cate2 {
+    background: #212554;
+    right: 0;
+    top: 8%;
+    z-index: 2;
+    width: 100%;
+    color: white;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 5px;
+    clip-path: polygon(0 0, 75% 0%, 55% 100%, 0% 100%);
+}
+
+.source,
+.target {
+    margin: 20px;
+    min-height: 190px;
+    width: 400px;
+    border: 1px solid green;
+}
+
+.target {
+    border: 1px solid blue;
+}
+
+.item {
+    height: 20px;
+    margin: 5px;
+    /*padding: 5px;*/
+    /*border: 1px solid gray;*/
+    /*background-color: #cd8;*/
+    position: relative;
+    cursor: all-scroll;
+}
+
+.closer {
+    float: right;
+    width: 20px;
+    height: 20px;
+    border: 0;
+    background-color: red;
+}
+
+.closer:hover {
+    background-color: transparent;
+    border: 0;
+}
+
+.empty {
+    height: 30px;
+    margin: 5px;
+    /*background: #eee;*/
+    border: 1px dashed #999;
+}
+
+.highlight {
+    border: 1px solid red;
+    background: #fff;
+}
+
+.highlight .item {
+    opacity: 0.3;
+}
+
+.ui-draggable-dragging {
+    z-index: 99;
+    opacity: 1 !important;
+    width: 378px;
+}
+
+.filled .item .closer {
+    display: block;
+}
